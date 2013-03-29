@@ -1,0 +1,3 @@
+[submodule "UPF"]
+	path = UPF
+	url = https://github.com/mylukin/UPF.git
