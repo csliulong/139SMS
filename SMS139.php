@@ -42,7 +42,7 @@ class SMS139 {
      */
     private function login($username, $password) {
         $cguid = time();
-        $resp = $this->http->post('https://mail.10086.cn/Login/Login.ashx?' . http_build_query(array(
+        $resp = $this->http->post('http://mail.10086.cn/Login/Login.ashx?' . http_build_query(array(
                 'Adapt-Flag' => 'on',
                 'cguid' => $cguid,
                 'mtime' => '1',
